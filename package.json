@@ -1,0 +1,15 @@
+{
+  "name": "pogledjs",
+  "version": "0.1.0",
+  "description": "JavaScript view library",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "npx tsc && browserify dist/index.js -o dist/app.js"
+  },
+  "author": "Marko Vuckovic",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "typescript": "^4.8.3"
+  }
+}
